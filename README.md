@@ -1,8 +1,6 @@
 # Moba GM Editor
 
-An unofficial browser extension that adds a player and team editor to [Moba GM](https://mobagm.com/), the browser-based esports management game. It edits your **local save** directly, right inside the game page.
-
-> **Not affiliated with Moba GM or its creator.** This is a fan-made tool for single-player saves. Use it at your own risk and keep backups.
+An browser extension that adds a player and team editor to [Moba GM](https://mobagm.com/), a browser-based esports management game. It edits your local save directly, right inside the game page.
 
 ## Features
 

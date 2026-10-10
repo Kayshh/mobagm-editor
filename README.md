@@ -46,18 +46,9 @@ Replace the files in your folder with the new ones, click the reload icon on the
 
 ## How it works
 
-The extension is a single content script that runs on `mobagm.com`. Content scripts share the page's origin storage, so it opens the game's IndexedDB database (the one that has `players` and `teams` stores) and reads and writes records with regular transactions. There is no server, no network request and no build step.
+The extension is a single content script that runs on `mobagm.com`. Content scripts share the page's origin storage, so it opens the game's IndexedDB database and reads and writes records with regular transactions.
 
 When transferring players it keeps the game's duplicated data consistent: the player record, the team's roster, substitutes and academy caches, the player's latest season record, and the stored copy of the user's team. Original values for restore are kept in `chrome.storage.local`.
-
-## Known limitations
-
-- **OVR is computed by the game** from skills and role. If you edit only OVR, the game may recompute it from the skills.
-- **Age** is set relative to the latest season record in the save. The game may display one year more if it calculates age from the current game year.
-- The `rating` shown in team roster caches is calculated by the game; after a transfer the editor preserves the old value or uses the player's OVR.
-- Investment fields are limited to 0–3, which is the range seen in saves.
-- Future game updates may change the data layout and break the editor.
-- This only works with single-player saves stored in your browser.
 
 ## Project layout
 

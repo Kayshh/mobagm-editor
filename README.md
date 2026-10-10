@@ -6,22 +6,22 @@ An browser extension that adds a player and team editor to [Moba GM](https://mob
 
 ### Players tab
 - Search players by nickname, name, team, country, role or roster slot.
-- Edit **OVR / POT**, active role, **contract** (salary and expiry year), **age**, **country** and **region**.
-- Edit all **15 skills**, the **9 attributes** and the **role affinities**.
+- Edit OVR/POT, active role, contract (salary and expiry year), age, country and region.
+- Edit all skills, attributes and role affinities.
 - Quick bulk actions for skills: set all gameplay skills to a value, ±5, or set OVR to the average of the 12 gameplay skills.
-- **Hero pool editor**: change mastery per hero, filter the pool, apply a value to all visible heroes, remove heroes, and **add heroes** with a searchable list (single or all results).
-- **Transfer / assign** a player to any team as a starter (with role), substitute or academy player, or release him to free agents. If the slot is taken, choose whether the current occupant goes to the bench, swaps places, or is released.
+- Hero pool editor: change mastery per hero, filter the pool, apply a value to all visible heroes, remove heroes, and add heroes with a searchable list (single or all results).
+- Transfer/assign a player to any team as a starter (with role), substitute or academy player, or release him to free agents. If the slot is taken, choose whether the current occupant goes to the bench, swaps places, or is released.
 
 ### Teams tab
 - Edit name, tag, logo URL, cash, sponsorship, training and academy investment, reputation and Elo.
-- See the full roster (starters, substitutes, academy) with **Edit** and **Release** buttons.
-- **Sign a free agent** shortcut that pre-selects the destination team.
+- See the full roster (starters, substitutes, academy) with Edit and Release buttons.
+- Sign a free agent shortcut that pre-selects the destination team.
 
 ### Quality of life
-- **Languages:** Portuguese (Brazil), English and Spanish, switchable with the flags in the header. Your choice is remembered.
-- **Backups:** *Export backup* downloads all players and teams as JSON. The first time you edit a player or team, the original values are stored so you can use **Restore original**.
-- **Optional auto-reload (F5):** off by default, so it never interrupts your flow. Toggle it in the header.
-- The editor button sits next to the game's Discord button (bottom-right corner if the Discord button is not found).
+- Languages: Portuguese (Brazil), English and Spanish, switchable with the flags in the header. Your choice is remembered.
+- **Backups:** *Export backup* downloads all players and teams as JSON. The first time you edit a player or team, the original values are stored so you can use Restore original
+- Auto-reload (F5): Off by default. Toggle it in the header.
+- The editor button sits next to the game's Discord button (bottom-right corner).
 
 ## Installation
 

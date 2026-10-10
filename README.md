@@ -36,20 +36,6 @@ Works on Chromium-based browsers that support Manifest V3: **Chrome, Edge, Brave
 ### Updating
 Replace the files in your folder with the new ones, click the reload icon on the extension card in `chrome://extensions`, then refresh the game tab.
 
-## Usage tips
-
-- Edit while the game is **not simulating**.
-- Click **Export backup** before large changes.
-- The game may keep data in memory. After saving, refresh the page (F5) so the game reads the new values, or enable the auto-reload option.
-- Transfers apply immediately and are separate from the **Save changes** button.
-- If a starter slot is left empty after a transfer or release, the editor warns you. Fill it before simulating.
-
-## How it works
-
-The extension is a single content script that runs on `mobagm.com`. Content scripts share the page's origin storage, so it opens the game's IndexedDB database and reads and writes records with regular transactions.
-
-When transferring players it keeps the game's duplicated data consistent: the player record, the team's roster, substitutes and academy caches, the player's latest season record, and the stored copy of the user's team. Original values for restore are kept in `chrome.storage.local`.
-
 ## License
 
 [MIT](LICENSE)

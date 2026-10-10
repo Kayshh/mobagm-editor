@@ -50,18 +50,6 @@ The extension is a single content script that runs on `mobagm.com`. Content scri
 
 When transferring players it keeps the game's duplicated data consistent: the player record, the team's roster, substitutes and academy caches, the player's latest season record, and the stored copy of the user's team. Original values for restore are kept in `chrome.storage.local`.
 
-## Project layout
-
-```
-manifest.json   Extension manifest (Manifest V3)
-content.js      The whole editor (UI, translations, IndexedDB logic)
-icons/          Extension icons (16, 32, 48, 128 px)
-```
-
-## Contributing
-
-Issues and pull requests are welcome. For bug reports, please include your browser version, the extension version, and what you did right before the problem. Screenshots of the editor and of DevTools → Application → IndexedDB are very helpful.
-
 ## License
 
 [MIT](LICENSE)
